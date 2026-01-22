@@ -93,32 +93,25 @@ export interface Testimonial {
   quote: string;
   name: string;
   company: string;
-  avatar: {
-    id: string;
-    hint: string;
-  };
 }
 
 export const testimonials: Testimonial[] = [
   {
     quote:
       'AnnexSoft Digital Hub transformed our online presence. Their team delivered a stunning website that exceeded our expectations and drove a 200% increase in engagement. A truly professional and talented agency!',
-    name: 'Sarah Johnson',
+    name: 'Nitin Sarode',
     company: 'CEO of Innovate Inc.',
-    avatar: { id: 'avatar-1', hint: 'professional woman' },
   },
   {
     quote:
       'Working with AnnexSoft was a game-changer. Their expertise in mobile app development is unmatched. They were responsive, insightful, and delivered a product that our users love. Highly recommended.',
-    name: 'Michael Chen',
+    name: 'Shreya Nikam',
     company: 'Founder of ConnectApp',
-    avatar: { id: 'avatar-2', hint: 'professional man' },
   },
   {
     quote:
       'The cloud solutions provided by AnnexSoft have been critical to our scalability. Their DevOps practices have significantly improved our deployment speed and system reliability. An invaluable partner for any tech company.',
-    name: 'Emily Rodriguez',
+    name: 'Priya Sharma',
     company: 'CTO at ScaleFast',
-    avatar: { id: 'avatar-3', hint: 'startup founder' },
   },
 ];

@@ -1,9 +1,7 @@
 
 'use client';
 
-import Image from 'next/image';
 import { testimonials } from '@/lib/data';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 import {
   Carousel,
   CarouselContent,
@@ -12,8 +10,7 @@ import {
   CarouselPrevious,
 } from '@/components/ui/carousel';
 import { Card, CardContent } from '@/components/ui/card';
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
-import { Wand2 } from 'lucide-react';
+import { User, Wand2 } from 'lucide-react';
 import { Button } from '../ui/button';
 import { ContentSuggestionTool } from '../ai/ContentSuggestionTool';
 
@@ -39,12 +36,6 @@ export default function Testimonials() {
         >
           <CarouselContent>
             {testimonials.map((testimonial, index) => {
-              const avatar = PlaceHolderImages.find((img) => img.id === testimonial.avatar.id);
-              const fallback = testimonial.name
-                .split(' ')
-                .map((n) => n[0])
-                .join('');
-
               return (
                 <CarouselItem key={index}>
                   <div className="p-1">
@@ -54,16 +45,9 @@ export default function Testimonials() {
                           "{testimonial.quote}"
                         </blockquote>
                         <div className="flex items-center gap-4 mb-4">
-                          {avatar && (
-                            <Avatar>
-                              <AvatarImage
-                                src={avatar.imageUrl}
-                                alt={testimonial.name}
-                                data-ai-hint={avatar.imageHint}
-                              />
-                              <AvatarFallback>{fallback}</AvatarFallback>
-                            </Avatar>
-                          )}
+                          <div className="p-3 bg-muted rounded-full">
+                            <User className="w-8 h-8 text-muted-foreground" />
+                          </div>
                           <div>
                             <p className="font-semibold">{testimonial.name}</p>
                             <p className="text-sm text-foreground/60">{testimonial.company}</p>

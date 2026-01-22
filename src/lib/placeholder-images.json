@@ -41,24 +41,6 @@
       "description": "Cloud infrastructure diagram.",
       "imageUrl": "https://images.unsplash.com/photo-1717586872276-ecf58bbf5574?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjbG91ZCUyMGluZnJhc3RydWN0dXJlfGVufDB8fHx8MTc2ODk2MTMxNXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "cloud infrastructure"
-    },
-    {
-      "id": "avatar-1",
-      "description": "Portrait of a smiling professional woman.",
-      "imageUrl": "https://images.unsplash.com/photo-1573165850883-9b0e18c44bd2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwcm9mZXNzaW9uYWwlMjB3b21hbnxlbnwwfHx8fDE3NjkwMjIwOTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "professional woman"
-    },
-    {
-      "id": "avatar-2",
-      "description": "Portrait of a confident professional man.",
-      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cHJvZmVzc2lvbmFsJTIwbWFufGVufDB8fHx8MTc2ODk0NTM4Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "professional man"
-    },
-    {
-      "id": "avatar-3",
-      "description": "Portrait of a tech startup founder.",
-      "imageUrl": "https://images.unsplash.com/photo-1633986218520-0091e9ca4eaa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzdGFydHVwJTIwZm91bmRlcnxlbnwwfHx8fDE3NjkwNjEwMDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "startup founder"
     }
   ]
 }
