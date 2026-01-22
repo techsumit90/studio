@@ -22,7 +22,7 @@ export default function FloatingSocials() {
         className="rounded-full w-14 h-14 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 hover:opacity-90 text-white"
         aria-label="Follow on Instagram"
       >
-        <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+        <Link href="https://www.instagram.com/annexsoft.in?igsh=NzU5eWhhbTY0cWVi" target="_blank" rel="noopener noreferrer">
           <Instagram className="h-7 w-7" />
         </Link>
       </Button>
