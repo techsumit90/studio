@@ -1,8 +1,7 @@
-
 'use client';
 
-import { useEffect, useState } from 'react';
-import { useFormState, useFormStatus } from 'react-dom';
+import { useEffect, useState, useActionState } from 'react';
+import { useFormStatus } from 'react-dom';
 import { Wand2, Lightbulb, Loader, ServerCrash } from 'lucide-react';
 
 import { getSuggestionsAction } from '@/app/actions';
@@ -45,7 +44,7 @@ export function ContentSuggestionTool({
   trigger: React.ReactNode;
   title: string;
 }) {
-  const [state, formAction] = useFormState(getSuggestionsAction, initialState);
+  const [state, formAction] = useActionState(getSuggestionsAction, initialState);
   const [currentContent, setCurrentContent] = useState(contentToImprove);
   const [open, setOpen] = useState(false);
 
