@@ -12,7 +12,7 @@ export default function FloatingSocials() {
         className="rounded-full w-14 h-14 bg-[#25D366] hover:bg-[#128C7E] text-white"
         aria-label="Contact on WhatsApp"
       >
-        <Link href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer">
+        <Link href="https://wa.me/918308848771" target="_blank" rel="noopener noreferrer">
           <WhatsAppIcon className="h-7 w-7" />
         </Link>
       </Button>

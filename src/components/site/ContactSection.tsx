@@ -21,13 +21,13 @@ export default function ContactSection() {
                 Fill out the form, or contact us directly through email or phone. We're always happy to discuss your project.
               </p>
               <div className="space-y-4">
-                <a href="mailto:contact@annexsoft.com" className="flex items-center gap-3 group">
+                <a href="mailto:annexsodt.com@gmail.com" className="flex items-center gap-3 group">
                   <Mail className="h-5 w-5 text-primary" />
-                  <span className="group-hover:text-primary transition-colors">contact@annexsoft.com</span>
+                  <span className="group-hover:text-primary transition-colors">annexsodt.com@gmail.com</span>
                 </a>
-                <a href="tel:+1234567890" className="flex items-center gap-3 group">
+                <a href="tel:+918308848771" className="flex items-center gap-3 group">
                   <Phone className="h-5 w-5 text-primary" />
-                  <span className="group-hover:text-primary transition-colors">+1 (234) 567-890</span>
+                  <span className="group-hover:text-primary transition-colors">+91 83088 48771</span>
                 </a>
               </div>
             </div>
